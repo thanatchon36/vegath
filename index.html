@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vega-Lite Bar Chart</title>
+    <title>I/O 2015 180 Sectors</title>
     <meta charset="utf-8" />
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
@@ -36,7 +36,7 @@
       "bind": {"input": "checkbox"}
     },
     {
-      "name": "radius", "value": 280,
+      "name": "radius", "value": 480,
       "bind": {"input": "range", "min": 20, "max": 600}
     },
     {
@@ -48,11 +48,11 @@
       "bind": {"input": "range", "min": 0, "max": 360, "step": 1}
     },
     {
-      "name": "layout", "value": "tidy",
+      "name": "layout", "value": "cluster",
       "bind": {"input": "radio", "options": ["tidy", "cluster"]}
     },
     {
-      "name": "links", "value": "line",
+      "name": "links", "value": "orthogonal",
       "bind": {
         "input": "select",
         "options": ["line", "curve", "diagonal", "orthogonal"]
